@@ -4,6 +4,7 @@
 
 - El nombre de las carpetas tienen que ser en ingles y en letras minisculas.
 - El nombre de los archivos que son componentes siempre la primera letra en mayuscula.
+- Los archivos que contienen dos palabras se separan por un guion.
 - Los componentes van en la carpeta src/components/
 - Los estilos globales van en la carpera /src/css
 - Los estilos de componentes van en la carpeta /src/components/css
@@ -19,6 +20,7 @@
 
 - The name of folders must be in english and letter lower cases.
 - The name of archives what are components always the first letter will be uppercase.
+- The archives whit two names are separated by hyphen
 - The components go in the folder src/components.
 - The styles global go in the folder src/css.
 - the styles of components go in the folder src/components/css.

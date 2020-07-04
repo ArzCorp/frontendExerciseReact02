@@ -1,0 +1,50 @@
+:root {
+  /*TEXT SIZE*/
+  --titleSize: 2.5em;
+  --subtitleSize: 2em;
+  --textSize: 1.2em;
+
+  /*SPACING*/
+  --minSpacing: 5px;
+  --spacing: 10px;
+  --spacingx2: 20px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: var(--titleSize);
+}
+
+h2 {
+  padding-bottom: var(--spacingx2);
+  font-size: var(--subtitleSize)
+}
+
+p {
+  padding: var(--minSpacing) 0px;
+  font-size: var(--textSize)
+}
+
+.container {
+  max-width: 100%;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  padding: 0px var(--spacing);
+  padding-bottom: var(--spacingx2);
+}
+
+.list {
+  margin-left: var(--spacingx2);
+  padding-left: var(--spacingx2);
+  font-size: var(--textSize);
+}
